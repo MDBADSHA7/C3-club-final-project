@@ -36,7 +36,7 @@ footer{
 .section-5{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    background-image: url(/Images/footer2.jpg);
+    background-image: url(./Images/footer2.jpg);
 }
 p{
     color: lightslategrey;
