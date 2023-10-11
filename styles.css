@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+a{
+    text-decoration: none;
+    color: blue;
+    background-color:wheat;
+
+    font-size: larger;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.padding{
+    margin-left: 80px;
+}
+footer{
+    background-color: black;
+}
+.section-3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 5px;
+}
+.section-4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.section-5{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-image: url(/Images/footer2.jpg);
+}
+p{
+    color: lightslategrey;
+    font-size: larger;
+    font-weight: bolder;
+}
+.text-align{
+   margin-left: 120px;
+}
+.Practice{
+    color: brown;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+.image{
+  width:100%;
+}
+.int-std{
+    text-align: center;
+}
+.text{
+    margin-left: 80px;
+}
+button{
+    border-radius: 20px;
+    margin-left: 70px;
+    font-size: large;
+    font-weight: bold;
+    background-color:bisque;
+    margin-bottom: 40px;
+}
+.up{
+   margin-top: -150px;
+   color:red;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: blue;
+}
+.flex{
+    display: flex;
+    justify-content: flex-end;
+}
+.flex p{
+    padding-left: 20px;
+    color:white;
+}
+.white{
+    color:white ;
+}
